@@ -1,0 +1,33 @@
+:root {
+  --yellow: #fed136;
+  --icon-yellow: #fdd048;
+  --black: #212529;
+  --grey: #f8f9fa;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+}
+
+h4 {
+  font-size: 1.5rem;
+}

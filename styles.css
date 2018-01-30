@@ -1,0 +1,98 @@
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  /* grid-template-rows: 50px repeat(auto-fit, minmax(200px, 1fr)); */
+}
+
+.menu {
+  background: var(--black);
+  display: grid;
+  align-content: center;
+}
+
+#menu-list {
+  text-transform: uppercase;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu a {
+}
+
+#logo {
+  color: var(--yellow);
+}
+
+.section-headers {
+  text-transform: uppercase;
+}
+
+.services {
+  background: #fff;
+  display: grid;
+  grid-gap: 20px 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr;
+}
+
+.section-headers__container {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.section-headers__container h3 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.section-headers__container p {
+  color: #868e96;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+
+.service {
+  text-align: center;
+}
+
+.service h4 {
+  font-weight: bold;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.service p {
+  line-height: 1.5;
+  color: #868e96;
+  line-height: 1.75;
+  margin: 0 auto 3em auto;
+  padding: 1em;
+}
+
+.portfolio {
+  background: var(--grey);
+  display: grid;
+  grid-gap: 20px 20px;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-auto-rows: 1fr;
+}
+
+.portfolio-gallery {
+}
+
+@media (min-width: 768px) {
+  .services {
+    background: #fff;
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr;
+  }
+
+  .service h4 {
+    font-weight: bold;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}
