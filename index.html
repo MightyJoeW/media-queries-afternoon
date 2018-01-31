@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="base.css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
     <title>Agency Clone by Joe Warren</title>
 </head>
 
@@ -17,21 +18,22 @@
                 <li class="logo">
                     <a href="">Start Bootstrap</a>
                 </li>
-                <li>
+                <li class="menu-right">
                     <a href="">Services</a>
                 </li>
-                <li>
+                <li class="menu-right">
                     <a href="">Portfolio</a>
                 </li>
-                <li>
+                <li class="menu-right">
                     <a href="">About</a>
                 </li>
-                <li>
+                <li class="menu-right">
                     <a href="">Team</a>
                 </li>
-                <li>
+                <li class="menu-right">
                     <a href="">Contact</a>
                 </li>
+                <button class="menu-button">Menu</button>
             </ul>
         </nav>
 
@@ -51,22 +53,22 @@
             </div>
             <div class="service">
                 <img src="./src/img/cart.png" alt="cart">
-                <h4>E-Commerce</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore
+                <h4 class="col-title">E-Commerce</h3>
+                    <p class="col-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore
                         harum ex magni, dicta impedit.
                     </p>
             </div>
             <div class="service">
                 <img src="./src/img/computer.png" alt="computer">
-                <h4>Responsive Design</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore
+                <h4 class="col-title">Responsive Design</h3>
+                    <p class="col-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore
                         harum ex magni, dicta impedit.
                     </p>
             </div>
             <div class="service">
                 <img src="./src/img/lock.png" alt="lock">
-                <h4>Web Security</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum
+                <h4 class="col-title">Web Security</h4>
+                <p class="col-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum
                     ex magni, dicta impedit.
                 </p>
             </div>
@@ -77,37 +79,35 @@
                 <h3 class="section-headers">Portfolio</h3>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
-            <div class="portfolio-gallery">
-                <div>
-                    <img src="" alt="img 1">
-                    <p class="portfolio-gallery__header">Threads</p>
-                    <p class="portfolio-gallery__subheader">Illustration</p>
-                </div>
-                <div>
-                    <img src="https://blackrockdigital.github.io/startbootstrap-agency/#portfolioModal1" alt="img 2">
-                    <p class="portfolio-gallery__header">Explore</p>
-                    <p class="portfolio-gallery__subheader">Graphic Design</p>
-                </div>
-                <div>
-                    <img src="" alt="img 3">
-                    <p class="portfolio-gallery__header">Finish</p>
-                    <p class="portfolio-gallery__subheader">Identity</p>
-                </div>
-                <div>
-                    <img src="" alt="img 4">
-                    <p class="portfolio-gallery__header">Lines</p>
-                    <p class="portfolio-gallery__subheader">Branding</p>
-                </div>
-                <div>
-                    <img src="" alt="img 5">
-                    <p class="portfolio-gallery__header">Southwest</p>
-                    <p class="portfolio-gallery__subheader">Website Design</p>
-                </div>
-                <div>
-                    <img src="" alt="img 6">
-                    <p class="portfolio-gallery__header">Window</p>
-                    <p class="portfolio-gallery__subheader">Photography</p>
-                </div>
+            <div class="portfolio-cells">
+                <img src="./src/img/01-thumbnail.jpg" alt="threads img">
+                <h4 class="col-title">Threads</h4>
+                <p class="col-text__portfolio">Illustration</p>
+            </div>
+            <div class="portfolio-cells">
+                <img src="./src/img/02-thumbnail.jpg" alt="explore img">
+                <h4 class="col-title">Explore</h4>
+                <p class="col-text__portfolio">Graphic Design</p>
+            </div>
+            <div class="portfolio-cells">
+                <img src="./src/img/03-thumbnail.jpg" alt="finish img">
+                <h4 class="col-title">Finish</h4>
+                <p class="col-text__portfolio">Identity</p>
+            </div>
+            <div class="portfolio-cells">
+                <img src="./src/img/04-thumbnail.jpg" alt="lines img">
+                <h4 class="col-title">Lines</h4>
+                <p class="col-text__portfolio">Branding</p>
+            </div>
+            <div class="portfolio-cells">
+                <img src="./src/img/05-thumbnail.jpg" alt="southwest img">
+                <h4 class="col-title">Southwest</h4>
+                <p class="col-text__portfolio">Website Design</p>
+            </div>
+            <div class="portfolio-cells">
+                <img src="./src/img/06-thumbnail.jpg" alt="window img">
+                <h4 class="col-title">Window</h4>
+                <p class="col-text__portfolio">Photography</p>
             </div>
         </section>
 
@@ -115,6 +115,41 @@
             <div class="section-headers__container">
                 <h3 class="section-headers">About</h3>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="about-timeline">
+                <img src="https://blackrockdigital.github.io/startbootstrap-agency/img/about/1.jpg" alt="img1">
+                <div>
+                    <h4 class="col-title">2009-2011</h4>
+                    <h4 class="col-title">Our Humble Beginnings</h4>
+                    <p class="col-text__portfolio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis
+                        temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                    </p>
+                </div>
+                <img src="https://blackrockdigital.github.io/startbootstrap-agency/img/about/2.jpg" alt="img2">
+                <div>
+                    <h4 class="col-title">March 2011</h4>
+                    <h4 class="col-title">An Agency is Born</h4>
+                    <p class="col-text__portfolio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis
+                        temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                    </p>
+                </div>
+                <img src="https://blackrockdigital.github.io/startbootstrap-agency/img/about/3.jpg" alt="img3">
+                <div>
+                    <h4 class="col-title">December 2012</h4>
+                    <h4 class="col-title">Transition to Full Service</h4>
+                    <p class="col-text__portfolio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis
+                        temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                    </p>
+                </div>
+                <img src="https://blackrockdigital.github.io/startbootstrap-agency/img/about/4.jpg" alt="img4">
+                <div>
+                    <h4 class="col-title">July 2014</h4>
+                    <h4 class="col-title">Phase Two Expansion</h4>
+                    <p class="col-text__portfolio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis
+                        temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                    </p>
+                </div>
+                <div class="about-story-circle">Be Part Of Our Story</div>
             </div>
 
         </section>
