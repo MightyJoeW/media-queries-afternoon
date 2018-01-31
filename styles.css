@@ -61,6 +61,38 @@ a:visited {
   background-size: cover;
 }
 
+.hero-content {
+  display: grid;
+  grid-gap: 20px;
+  color: #fff;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.hero-content h2 {
+  font-size: 4em;
+}
+
+.hero button {
+  background: var(--yellow);
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 700;
+  width: 50%;
+  justify-self: center;
+}
+
 .section-headers {
   text-transform: uppercase;
   margin-top: 5rem;
