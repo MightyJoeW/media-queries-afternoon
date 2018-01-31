@@ -19,20 +19,20 @@
             <a class="logo" href="">Start Bootstrap</a>
             <button class="menu-button">Menu</button>
             <ul id="menu-list">
-                <li class="menu-right">
-                    <a href="">Services</a>
+                <li>
+                    <a class="menu-right" href="">Services</a>
                 </li>
-                <li class="menu-right">
-                    <a href="">Portfolio</a>
+                <li>
+                    <a class="menu-right" href="">Portfolio</a>
                 </li>
-                <li class="menu-right">
-                    <a href="">About</a>
+                <li>
+                    <a class="menu-right" href="">About</a>
                 </li>
-                <li class="menu-right">
-                    <a href="">Team</a>
+                <li>
+                    <a class="menu-right" href="">Team</a>
                 </li>
-                <li class="menu-right">
-                    <a href="">Contact</a>
+                <li>
+                    <a class="menu-right" href="">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -213,23 +213,26 @@
                 <h3 class="section-headers">Contact Us</h3>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
-            <form action="">
-                <input type="text" placeholder="Your Name *" required>
-                <input type="text" placeholder="Your Email *" required>
-                <input type="text" placeholder="Your Phone *" required>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message *"></textarea>
+            <form action="" class="contact-form">
+                <input id="contact-name" class="contact-form__fields" type="text" placeholder="Your Name *" required>
+                <input id="contact-email" class="contact-form__fields" type="text" placeholder="Your Email *" required>
+                <input id="contact-phone" class="contact-form__fields" type="text" placeholder="Your Phone *" required>
+                <textarea id="contact-form__textarea" name="message" id="message" cols="30" rows="10" placeholder="Your Message *"></textarea>
+                <button>Send Message</button>
             </form>
+
         </section>
 
         <!-- Footer -->
         <footer>
-            <div></div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div></div>
+            <div class="footer-copyright">Copyright © Your Website 2018</div>
+            <!-- <div class="footer-social">
+                <p>t</p>
+                <p>f</p>
+                <p>in</p>
+            </div> -->
+            <p class="footer-private">Privacy Policy</p>
+            <p class="footer-terms">Terms of Use</p>
         </footer>
 
         </div>
